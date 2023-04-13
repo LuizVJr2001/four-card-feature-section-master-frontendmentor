@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --primary-font-color: hsl(229, 6%, 66%);
+    --secondary-font-color: hsl(234, 12%, 34%);
+    --background-color-theme: hsl(0, 0%, 98%);
+
+    --primary-font-weight: 600;
+    --secondary-font-weight: 400;
+    --tertiary-font-weight: 200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: var(--background-color-theme);
+}
+
+.container__text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: var(--primary-font-color);
+    width: 30%;
+    padding: 20px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.container__text h1 {
+    color: var(--primary-font-color);
+    font-size: 1.9rem;
+}
+
+.container__text h2 {
+    color: var(--secondary-font-color);
+    font-weight: var(--primary-font-weight);
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.container__cards {
+    font-family: 'Poppins', sans-serif;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container__card__center {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 30px;
+    /* border: 3px solid yellow; */
+}
+
+.container__card {
+    border: 1px solid blue;
+    height: 275px;
+    width: 400px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    position: relative;
+}
+
+.supervisor__color {
+    background-color: aqua;
+    height: 2px;
+}
+
+.container__card h3 {
+    color: var(--secondary-font-color);
+    font-weight: var(--primary-font-weight);
+    font-size: 1.5rem;
+}
+
+.container__card p {
+    color: var(--primary-font-color);
+    font-weight: var(--tertiary-font-weight);
+    margin: 15px 0;
+}
+
+.container__card__icon {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+/* .container__card.supervisor {
+
+}
+
+.container__card.teambuilder {
+
+}
+
+.container__card.karma {
+
+}
+
+.container__card.calculator {
+
+} */
