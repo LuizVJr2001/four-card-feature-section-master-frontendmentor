@@ -109,3 +109,42 @@
     bottom: 40px;
     right: 40px;
 }
+
+.attribution {
+     font-size: 11px; 
+     margin: 10px;
+     position: absolute;
+     bottom: 10px;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 440px) {
+    
+    .container__text {
+        width: 85%;
+        margin: 80px auto;
+        padding: 0px;
+    }
+    
+    .container__text h1 {
+        font-size: 1.5rem;
+    }
+    
+    .container__text h2 {
+        font-size: 1.5rem;
+    }
+    
+    .container__cards {
+        flex-direction: column;
+    }
+
+    .container__card__center {
+        align-items: center;
+    }
+
+    .container__card {
+        width: 85%;
+    }
+ }
